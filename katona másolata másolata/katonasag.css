@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /*background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(mézeskalács2014.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('mh11-2.jpg');
+}
+
+h3
+{margin:20px 0 10px 0;}
+
+.feliratt
+{
+   
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50);
+    color: rgb(47, 173, 12);
+    margin-left: 10px;
+    margin-top: 10px;
+    text-shadow: 5px 3px black;
+}
+
+.rend{
+    
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50);
+    color:  rgb(47, 173, 12);
+    margin-left: 10px;
+    margin-top: -200px ;
+    text-shadow: 5px 3px black;
+}
+
+.orsz{
+    width: 85%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50);
+    color: rgba(179, 179, 179, 0.972);
+    margin-left: 10px;
+    margin-top: -170px ;
+}
+
+#felad_ul
+{
+    width: 90%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50);
+    color: rgba(179, 179, 179, 0.972);
+    margin-left: 10px;
+    margin-top: 35px ;
+}
+
+.kat{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.kat ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.kat ul li a{
+    text-decoration: none;
+    color: white ;
+    text-transform: uppercase;
+}
+.kat ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(26, 116, 2);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.kat ul li:hover::after{
+    width: 100%;
+}
+
+.tor{ 
+    position: absolute;
+    top: 35%;
+    color: rgb(47, 173, 12);
+    margin-left: 850px;
+    margin-top: 10px;
+    text-shadow: 5px 3px black;
+    text-align: center;
+}
+
+#tort{
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    color: rgba(179, 179, 179, 0.972);
+    margin-left: 65px;
+    margin-top: 35px ;
+}
+
+#csap{
+   width: 90%;
+    position: absolute;
+    top: 40%;
+    color: rgba(179, 179, 179, 0.972);
+    margin-left: 65px;
+    margin-top: 35px ; 
+}
+
+.csapt{ 
+    position: absolute;
+    top: 35%;
+    color: rgb(47, 173, 12);
+    margin-left: 850px;
+    margin-top: 10px;
+    text-shadow: 5px 3px black;
+    text-align: center;
+}
+
+#eler{
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    color: rgba(179, 179, 179, 0.972);
+    margin-left: 65px;
+    margin-top: 35px ;
+    text-align: center;
+}
+
+.ele{
+    position: absolute;
+    top: 35%;
+    color: rgb(47, 173, 12);
+    margin-left: 800px;
+    margin-top: 10px;
+    text-shadow: 5px 3px black;
+    text-align: center;
+}
